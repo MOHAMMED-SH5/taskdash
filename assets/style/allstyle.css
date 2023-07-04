@@ -1,0 +1,997 @@
+
+@font-face {
+    font-family: Tajawal;
+    src: url(../fonts/Tajawal/Tajawal-Medium.ttf);
+    
+}
+@font-face {
+    font-family: Cairo;
+    src: url(../fonts/Cairo/Cairo-VariableFont_slnt\,wght.ttf);
+
+  }
+
+  @font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+  }
+
+
+   @font-face {
+    font-family: ABeeZee;
+    src: url(../fonts/ABeeZee/ABeeZee-Italic.ttf);
+  }
+
+  @font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
+  }
+
+
+
+  
+
+p 
+{
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+/* Dash */
+.navtext
+{
+    color: #1AAAE9;
+    font-size: 20px;
+    font-family: 'Tajawal';
+}
+.imghome
+{
+    width: 15%;
+}
+.crwancity
+{
+    color: #232C32;
+    font-size: 17px;
+    font-family: 'Tajawal';
+}
+.history
+{
+    color: #1AAAE9;
+    font-size: 20px;
+    font-family: 'Tajawal';  
+}
+.loginyear
+{
+    color: #989999;
+    font-size: 20px;
+    font-family: 'Tajawal';
+}
+.numbernav
+{
+    color: #1AAAE9;
+    font-size: 18px;
+    font-family: 'Tajawal';   
+}
+.circlenavbar
+{
+    height: 40px;
+    width: 40px;
+    background-color: #1AAAE9;
+    border-radius: 50%;
+    display: inline-block;
+}
+.fa-paper-plane
+{
+    color: white;
+    font-size: 20px;
+}
+#facebooknav
+{
+    color: white;
+    font-size: 20px;
+}
+#twitternavbar
+{
+    color: white;
+    font-size: 20px;
+}
+.imgfix
+{
+    width: 8%;
+}
+.saroj
+{
+    width: 10%;
+}
+.bgdash
+{
+    background-color: #64B5F633;
+}
+.detailes-contol
+{
+    color: #0037C3;
+    font-size: 15px;
+    font-family: 'Tajawal';     
+
+}
+.sectiondash
+{
+    overflow-x: hidden;
+}
+.information-dash
+{
+    background-color: #ebecec;
+}
+#progesthree
+{
+    background-color: #16BFD6;  
+}
+.list
+{
+    color: #000;
+    font-size: 20px;
+    font-family: 'Tajawal';     
+}
+.fa-bars
+{
+    color: #000;
+    font-size: 22px;
+}
+.tittel-sidebar
+{
+    color: #006AFF;
+    font-size: 20px;
+    font-family: 'Tajawal';  
+}
+.imgsidebar
+{
+    width:20%;
+}
+.detailes-sidebar
+{
+    color: #9D9FA0;
+    font-size: 14px;
+    font-family: 'Tajawal';    
+}
+.imgsidebarsm
+{
+    width:15%; 
+}
+.steps-dash
+{
+    color: #000;
+    font-size: 17px;
+    font-family: 'Cairo';    
+}
+.fa-house
+{
+    color: #006AFF;
+    font-size: 17px;
+}
+.boxdashone
+{
+    background-color: white;
+    width: 100%;
+    border-bottom: 2px solid #6979F8;
+}
+.tiitelboxone
+{
+    color: #006AFF;
+    font-size: 18px;
+    font-family: 'Tajawal';   
+}
+.doorimg
+{
+    width: 15%;
+}
+.numberdash
+{
+    color: #0B1354;
+    font-size: 30px;
+}
+.cirlebox
+{
+    width: 30%;
+}
+
+
+
+.boxdashtwo
+{
+    background-color: white;
+    width: 100%;
+    border-bottom: 2px solid #A155B9;
+}
+.tiitelbox
+{
+    color: 000000;
+    font-size: 18px;
+    font-family: 'Tajawal';   
+}
+.boxdashthree
+{
+    background-color: white;
+    width: 100%;
+    border-bottom: 2px solid #F7E249;
+}
+
+.boxdashfour
+{
+    background-color: white;
+    width: 100%;
+    border-bottom: 2px solid #F765A3;
+}
+
+.boxdashfive
+{
+    background-color: white;
+    width: 100%;
+    border-bottom: 2px solid #0B1354;
+}
+
+.boxdashsix
+{
+    background-color: white;
+    width: 100%;
+    border-bottom: 2px solid #50C769;
+}
+.sec-boxes
+{
+    width: 95%;
+}
+
+
+.text-status
+{
+    color: #023246;
+    font-size: 20px;
+    font-family: 'Tajawal';  
+}
+.PRIMARY
+{
+    color: #828282;
+    font-size: 18px;
+    font-family: 'Poppins'; 
+    font-weight: bold; 
+}
+.numm
+{
+    color: #0B1354;
+    font-size: 35px;
+    font-family: 'Roboto';  
+}
+.Secondary
+{
+    color: #4F4F4F;
+    font-size: 20px;
+    font-family: 'Tajawal';  
+    font-weight: bold;
+}
+
+.lineone
+{
+    width: 0.5px;
+    height:443px;
+    background-color: #000000;
+    opacity: 20%;
+    position: absolute; 
+    margin-top: -5px;
+}
+.tittelsalsa
+{
+    color: #000000;
+    opacity: 70%;
+    font-size: 15px;
+    font-family: 'Tajawal';   
+    font-weight: bold;
+}
+.numsalsas
+{
+    color: #000000;
+    font-size: 17px;
+    font-family: 'Poppins';   
+    font-weight: bold;
+}
+#progess1
+{
+    background-color: #2D9CDB;
+}
+#progess2
+{
+    background-color: #FF75B0;    
+}
+#progess3
+{
+    background-color: #24D693;    
+}
+#progess4
+{
+    background-color: #A155B9;    
+}
+#progess5
+{
+    background-color: #F7E249;    
+}
+#progess6
+{
+    
+    background-color: #0B1354;    
+}
+.circledash
+{
+    height: 25px;
+    width: 25px;
+    background-color: #1AAAE9;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 55%;
+}
+#fainfo
+{
+    color: white;
+    font-size: 18px;
+}
+.line
+{
+    width: 0.5px;
+    height:240px;
+    margin-top: -10px;
+    background-color: #000000;
+    opacity: 20%;
+    position: absolute;
+}
+
+.nonavction
+{
+    color: #000000;
+    opacity: 52%;
+    font-size: 18px;
+    font-family: 'ABeeZee';   
+}
+
+.show
+{
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Tajawal';  
+}
+.progress
+{
+    background-color: #A8A2A2;
+    height: 8px;
+    margin-top: 8px;
+    width: 120%;
+}
+.persend
+{
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: left;
+}
+#progessone
+{
+    background-color: #6979F8;
+}
+#progesstwo
+{
+    background-color: #953BBF;  
+}
+.circels
+{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: 5px solid #e5e5e5;
+}
+.fa-info
+{
+    color: #e5e5e5;
+    font-size: 60px;
+}
+
+.box-ehsayat
+{
+    color: #023246;
+    font-size: 20px;
+    font-family: 'Tajawal';  
+}
+.onesec
+{
+    color: #041E28;
+    font-size: 20px;
+    font-family: 'Tajawal';  
+}
+.datatwosec
+{
+    color: #041E28;
+    font-size: 20px;
+    font-family: 'Tajawal';   
+}
+.updae
+{
+    color: #041E28;
+    opacity: 70%;
+    font-size: 17px;
+    font-family: 'Tajawal';    
+}
+.readmore
+{
+    color:#2D9CDB;
+    font-size: 15px;
+    font-family: 'Tajawal';
+    text-decoration: underline;    
+}
+.sta-cie
+{
+    color:#4F4F4F;
+    font-size: 15px;
+    font-family: 'Tajawal';
+    font-weight: bold;
+}
+.cis
+{
+    width: 20%;
+}
+
+
+/* sing up  */
+.towsec
+{
+    background-color: #006AFF;
+}
+.singpage
+{
+    overflow-x: hidden;
+}
+.footertext
+{
+    color: white;
+    font-size: 20px;
+    font-family: 'Tajawal';
+}
+.fa-globe
+{
+    font-size:20px;
+    opacity: 70%;
+    color: #000000;
+}
+.lang
+{
+    color: black;
+    font-size: 18px;
+    font-family: 'Cairo';
+}
+.logintext
+{
+    color: #3265CC;
+    font-size: 25px;
+    font-family: 'Cairo';
+}
+#fone,#fthree,#ffive {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius:0px;
+    border-left: 0px;
+    background-color: white;
+    border-color: #dcdcdc;
+    
+}
+#ftwo,#ffour,#fsix{
+    margin-left: -1px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-color: #dcdcdc;
+}
+::placeholder
+{
+    color: #88878A;
+    font-size: 15px;
+    font-family: 'Tajawal';
+}
+.remmberpass
+{
+    color: #000000;
+    font-size: 19px;
+    font-family: 'Tajawal';
+}
+.forgectpass
+{
+    color: #006AFF;
+    font-size: 19px;
+    font-family: 'Tajawal';
+    
+}
+.fa-user,.fa-calendar-week,.fa-lock
+{
+    color:#000000;
+    font-size:18px;
+    opacity: 55%;
+}
+/* forget password */
+.box
+{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+}
+
+.areyouforget
+{
+    color: #006AFF;
+    font-size: 35px;
+    font-family: 'Tajawal';
+    font-weight: bold;
+}
+.returnpass
+{
+    color: #000101 ;
+    opacity: 40%;
+    font-size: 16px;
+    font-family: 'Tajawal';
+}
+.boxemail
+{
+    border: 1px solid #006AFF;
+    border-radius: 5px;
+}
+.circle
+{
+    height: 35px;
+    width: 35px;
+    background-color:rgba(217, 217, 217, 0.43)    ;
+    border-radius: 50%;
+    display: inline-block;
+}
+#faemail
+{
+    color: #006AFF;
+    font-size: 20px;
+}
+.byemail
+{
+    color: #3265CC;
+    font-size: 22px;
+    font-family: 'Tajawal';
+}
+.sendemail
+{
+    color:#b3b2b4;
+    font-size: 20px;
+    font-family: 'Tajawal';
+}
+.fa-phone
+{
+    color: #006AFF;
+    font-size: 20px;
+}
+.formabdall
+{
+    border-color: #006AFF;
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 10px;
+    border-radius: 15px !important;
+}
+
+.btn-sendemail
+{
+    background-color: #006AFF;
+    color:white;
+    font-size: 18px;
+    font-family: 'Tajawal';
+}
+.cantsend
+{
+    color: #919292;
+    font-size: 15px;
+    font-family: 'Tajawal';
+}
+.retutnsendme
+{
+    color: #3265CC;
+    font-size: 15px;
+    font-family: 'Tajawal'; 
+}
+
+
+/* contact us page */
+body::-webkit-scrollbar {
+    width: 7px;             
+    
+}
+body::-webkit-scrollbar-track {
+    background-color: #ebebeb	; 
+}
+  
+body::-webkit-scrollbar-thumb {
+    background: #33bbf1;  
+    border-radius: 20px;     
+    border-width: 2px;
+}
+
+.callnav
+{
+    font-size: 20px;
+    font-family: 'Tajawal';
+}
+.fa-twitter,.fa-facebook-f,.fa-clock,.fa-envelope
+{
+    color: #006AFF;
+    font-size: 25px;
+}
+.fa-whatsapp
+{
+    color: #006AFF;
+    font-size: 30px; 
+}
+.keepconnect
+{
+    background-color: #F3F3F3;
+}
+.pkeep
+{
+    font-size: 32px;
+    font-family: 'Cairo';
+    font-weight: 700;
+    text-align: center;
+}
+.line-keep
+{
+
+    width: 110px;
+    height: 5px;
+    background-color: #006AFF;
+}
+
+.haveanyque
+{
+    color: #282323B2 ;
+    font-size: 24px;
+    font-family: 'Cairo';
+    font-weight: 400;
+    text-align: center;
+    
+}
+.locaction
+{
+    color: #000 ;
+    font-size: 24px;
+    font-family: 'Cairo';
+    font-weight: 400;  
+}
+.jadasudia
+{
+    color: #282323B2 ;
+    font-size: 18px;
+    font-family: 'Cairo';
+    font-weight: 400;
+}
+.formcontact
+{
+    color: #464646;
+    font-size: 21px;
+    font-family: 'Cairo';
+    font-weight:500;
+}
+.star
+{
+    color: #f6981e;
+}
+#exampleFormControlTextarea1
+{
+    height: 40vh;
+}
+.accept
+{
+    color: #464646;
+    font-size: 16px;
+    font-family: 'Cairo';
+    font-weight:500; 
+}
+
+.btn-send
+{
+    background-color: #006AFF;
+    color:white;
+    font-size: 18px;
+    font-family: 'Cairo';
+    font-weight:500; 
+}
+
+.linedash
+{
+    width: 2px;
+    height:75px;
+    margin-right: 5px;
+    margin-top: 1px;
+    background-color:rgba(128, 134, 136, 0.3);
+    position: absolute;
+}
+
+#imgehsaj
+{
+    height: 50vh;
+}
+.stylebodys
+{
+    background-color: #000;
+}
+.mystyle
+{
+    color: white; 
+}
+.mystylse
+{
+    color: white;
+}
+.keepconnects
+{
+    background-color:#141314;
+}
+.locationone,.locationtwo,.locationthree
+{
+    color: white;
+}
+.firstname1
+{
+    background-color: #303030;
+}
+.firstname2
+{
+    background-color: #303030;
+}
+.exampleInputEmail1
+{
+    background-color: #303030;  
+}
+.exampleFormControlTextarea1
+{
+    background-color: #303030;  
+}
+.texthaveanyqus
+{
+    color: white;
+}
+.jadasudiatext,.timeworks,.gmailmohammed,.numberwh
+{
+    color: #BEBEBE;
+}
+
+#checkbox {
+  position: relative;
+  appearance: none;
+  outline: none;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  background: #c3c3c3;
+  box-shadow: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+#checkbox:checked {
+  background: #8000c9;
+}
+
+#checkbox::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: inherit;
+  width: 36px;
+  height: 36px;
+  background: #ffff00;
+  transition: inherit;
+}
+
+#checkbox::after {
+  content: '';
+  position: absolute;
+  top: -6px;
+  right: calc(100% + 36px);
+  border-radius: inherit;
+  width: 36px;
+  height: 36px;
+  background: #c3c3c3;
+  transition: inherit;
+}
+
+ #checkbox:checked::before {
+  left: calc(100% - 38px);
+  background: #cccccc;
+}
+
+ #checkbox:checked::after {
+  right: 12px;
+  background: #8000c9;
+}
+
+@media (max-width: 576px) { 
+    .box-ehsayat
+    {
+        width: 120%;
+    }
+   
+
+ }
+
+
+
+@media (min-width: 576px) { 
+    .box-ehsayat
+    {
+        width: 102%;
+        margin-right: 3px;
+        margin-top: 15px;
+    }
+    .lineone
+    {
+        width: 0.5px;
+        height:500px;
+        background-color: #000000;
+        opacity: 20%;
+        position: absolute; 
+        margin-top: 2px;
+    }
+    .line
+    {
+        width: 0.5px;
+        height:300px;
+        margin-top: 1px;
+        background-color: #000000;
+        opacity: 20%;
+        position: absolute;
+    }
+
+    .box-ehsayat
+    {
+        background-color: white;
+        height: 90vh;
+    }
+    .updates
+    {
+        background-color: white;
+        height: 40vh;
+        width: 103%;
+    }
+
+    .servesroom
+    {
+        background-color: white;
+        height: 90vh;
+    }
+    .servesroomtwo
+    {
+        background-color: white;
+        height: 50vh;
+    }
+    .imgsecdash
+    {
+        margin-right: 100px;
+    }
+    .information-dash
+    {
+        height: 350vh;
+    }
+ }
+
+@media (min-width: 768px) { 
+    .box-ehsayat
+    {
+        margin-top: 15px;
+    }
+
+    .lineone
+    {
+        width: 0.5px;
+        height:500px;
+        background-color: #000000;
+        opacity: 20%;
+        position: absolute; 
+    }
+
+        .line
+    {
+        width: 0.5px;
+        height:440px;
+        background-color: #000000;
+        opacity: 20%;
+        position: absolute;
+    }
+    .box-ehsayat
+    {
+        background-color: white;
+        height: 75vh;
+    }
+    .updates
+    {
+        background-color: white;
+
+        height: 40vh;
+        width: 103%;
+    }
+
+    .servesroom
+    {
+        background-color: white;
+
+        height:90vh;
+    }
+    .servesroomtwo
+    {
+        background-color: white;
+
+        height:90vh;
+    }
+
+    .information-dash
+    {
+        height: 370vh;
+    }
+
+ }
+
+@media (min-width: 992px) { 
+    .box-ehsayat
+    {
+        margin-top: 0px;
+    }
+
+    
+    .box-ehsayat
+    {
+        background-color: white;
+
+        height: 90vh;
+    }
+    .updates
+    {
+        background-color: white;
+
+        height: 60vh;
+    }
+
+    .servesroom
+    {
+        background-color: white;
+
+        height: 90vh;
+    }
+    .servesroomtwo {
+        background-color: white;
+        height: 60vh;
+    }
+    .lineone
+    {
+        width: 0.5px;
+        height:555px;
+        background-color: #000000;
+        opacity: 20%;
+        position: absolute; 
+    }
+
+        .line
+    {
+        width: 0.5px;
+        height:350px;
+        background-color: #000000;
+        opacity: 20%;
+        position: absolute;
+    }
+    .information-dash
+    {
+        height: 210vh;
+    }
+ }
+
+@media (min-width: 1200px) {  }
+
+@media (min-width: 1400px) {  }
+
+
+
+

@@ -1,0 +1,174 @@
+<!doctype html>
+<html dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=IBM+Plex+Sans:ital,wght@0,200;1,200&family=Poppins:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+    <link rel="icon" href="<%= BASE_URL %>logo.ico">        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/style/allstyle.css">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <!--navbar  -->
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/img/contactus/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+
+            <span class="navbar-text  me-auto">
+                <span class="callnav ms-3" id="callnavs">اتصل بنا</span>
+                <span><i class="fa-brands fa-twitter ms-3"></i></span>
+                <span><i class="fa-brands fa-facebook-f "></i></span>
+            </span>
+
+            <input type="checkbox" class="me-3" id="checkbox" onclick="myFunction()" />
+
+
+          </div>
+        </div>
+      </nav>
+
+      <!-- keep connect -->
+        <div class="container">
+            <div class="keepconnect" id="keepconnects" >
+                        <div><p class="pkeep pt-3 pb-2" id="xa">ابقى على تواصل</p></div>
+                         <center>
+                          <div class="line-keep mb-1"></div>
+                         </center>
+                        <div><p class="haveanyque" id="texthaveanyqus">هل لديك اي استفسار او سؤال أو حلول مقترحة قم بالتواصل معنا</p></div>
+                <div class="boxdetailes pt-4">
+                        <div class="row p-5">
+                            <!-- one part -->
+                            <div class="col-sm-5 col-md-5 col-lg-5">
+                                <div class="locaction" id="locationone">العنوان</div>
+                                <div class="mt-3">
+                                    <span><img src="./assets/img/contactus/location.png" alt=""></span>
+                                    <span class="jadasudia me-1 mb-5" id="jadasudiatext">السعودية -جدة</span>
+                                </div>
+
+                                <div class="locaction mt-3" id="locationtwo">أوقات العمل</div>
+                                <div class="mt-3">
+                                    <span><i class="fa-regular fa-clock"></i></span>
+                                    <span class="jadasudia me-1 mb-5" id="timeworks">الأحد - الخميس : 08:00 صباحاً 05:00 مساء</span>
+                                </div>
+
+                                <div class="locaction mt-3" id="locationthree">الايميل/ واتساب</div>
+                                <div class="mt-3">
+                                    <span><i class="fa-solid fa-envelope"></i></span>
+                                    <span class="jadasudia me-1 mb-5" id="gmailmohammed">mohammednabeel2080@gmail.com</span>
+                                </div>
+
+                                <div class="mt-3">
+                                    <span><i class="fa-brands fa-whatsapp"></i></span>
+                                    <span class="jadasudia me-1 mb-5" id="numberwh"> +9669200063639</span>
+                                </div>
+                            </div>
+                            <!-- two part -->
+                            <div class="col-sm-12 col-md-7 col-lg-7">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <label for="firstname" class="form-label formcontact">الاسم الاول <span class="star">*</span></label>
+                                        <input type="text" class="form-control" id="firstname1" aria-describedby="firstname">
+                                    </div>
+                                    <div class="col-6">
+                                        <label for="lastname" class="form-label formcontact"> الاسم الاخير <span class="star">*</span></label>
+                                        <input type="text" class="form-control" id="firstname2" aria-describedby="lastname">
+                                    </div>
+                                    <div class="mt-3">
+                                        <label for="email" class="form-label formcontact">البريد الالكتروني<span class="star">*</span></label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="mt-3">
+                                        <label for="letter" class="form-label formcontact">الرسالة<span class="star">*</span></label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>                                    </div>
+                                    </div>
+                                    <div>
+                                        <p class="accept pt-2"><span class="star">*</span> 
+                                            بإرسال هذا النموذج ، فإنك توافق على سياسة الخصوصية والبنود والشروط الخاصة بوسيط.
+                                        </p>
+                                        <button type="button" class="btn btn-send mt-3">أرسال</button>
+
+                                    </div>
+                            </div>
+                    </div>
+                </div>
+              </div>
+              </div>
+
+              <div class="mt-5">
+                
+              </div>
+
+
+             
+              <script>
+                  function myFunction(){
+                      var bodys =  document.body;
+                      bodys.classList.toggle("stylebodys");
+
+                      var element = document.getElementById("callnavs");
+                      element.classList.toggle("mystyle");
+                      
+                      var xa = document.getElementById("xa");
+                      xa.classList.toggle("mystylse");
+                    
+                      var zaq = document.getElementById("keepconnects");
+                      zaq.classList.toggle("keepconnects");
+                      
+                      var si = document.getElementById("locationone");
+                      si.classList.toggle("locationone");
+
+                      var xaz = document.getElementById("locationtwo");
+                      xaz.classList.toggle("locationtwo");
+
+                      var locationth = document.getElementById("locationthree");
+                      locationth.classList.toggle("locationthree")
+
+                      var firstname1 = document.getElementById("firstname1");
+                      firstname1.classList.toggle("firstname1")
+
+                      var firstname2 = document.getElementById("firstname2");
+                      firstname2.classList.toggle("firstname2")
+
+                      var exampleInputEmail1 = document.getElementById("exampleInputEmail1");
+                      exampleInputEmail1.classList.toggle("exampleInputEmail1")
+
+                      var exampleFormControlTextarea1 = document.getElementById("exampleFormControlTextarea1");
+                      exampleFormControlTextarea1.classList.toggle("exampleFormControlTextarea1")
+
+                      var texthaveanyqus = document.getElementById("texthaveanyqus");
+                      texthaveanyqus.classList.toggle("texthaveanyqus")
+                        
+                      var jadasudiatext = document.getElementById("jadasudiatext");
+                      jadasudiatext.classList.toggle("jadasudiatext")
+
+                      var timeworks = document.getElementById("timeworks");
+                      timeworks.classList.toggle("timeworks")
+
+                      var gmailmohammed = document.getElementById("gmailmohammed");
+                      gmailmohammed.classList.toggle("timeworks")
+
+                      var numberwh = document.getElementById("numberwh");
+                      numberwh.classList.toggle("numberwh")
+
+                  }
+
+
+             
+
+                </script>
+        
+
+        </div>
+  </body>
+</html>

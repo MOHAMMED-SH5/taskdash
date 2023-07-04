@@ -1,0 +1,501 @@
+<!doctype html>
+<html dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=IBM+Plex+Sans:ital,wght@0,200;1,200&family=Poppins:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="<%= BASE_URL %>logo.ico">        
+    <link rel="stylesheet" href="./assets/style/allstyle.css">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <div class="text-center">
+                    <p class="navtext">02:36:24م</p>
+                    <p class="navtext">السبت 12 نوفمبر 2022</p>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse me-3" id="navbarText">
+                <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <div class="d-flex align-items-start">
+                                <img class="imghome" src="./assets/img/dash/home.png" alt="">
+                            <div class="me-3 pt-3">
+                                <p class="crwancity">كراون ستي للشقق المخدومة الرياض - ديراب  <span class="history">-1287</span></p>
+                                <p class="loginyear">تم تسجيل الدخول لسنة 2022</p>
+                            </div>
+                        </div>
+                </div>
+                <span class="navbar-text">
+                    <span class="numbernav ms-3">920006339</span>
+                    <span class="circlenavbar ">
+                        <div class="d-flex justify-content-center pt-2">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </div>
+                    </span>
+                    <span class="circlenavbar ">
+                        <div class="d-flex justify-content-center pt-2">
+                            <i class="fa-brands fa-facebook"  id="facebooknav"></i>
+                    </div>
+                    </span>
+                    <span class="circlenavbar ">
+                        <div class="d-flex justify-content-center pt-2">
+                            <i class="fa-brands fa-twitter" id="twitternavbar"></i>
+                        </div>
+                    </span>
+                    <span><img class="" src="./assets/img/dash/navction.png" alt=""></span>
+                    <span><img class="" src="./assets/img/dash/message.png" alt=""></span>
+                    <span><img class="imgfix" src="./assets/img/dash/fix.png" alt=""></span>
+                    <span class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="./assets/img/dash/man.png" alt="">
+                            <span class="lang">Abdallah</span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </span>
+                    <span class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-globe"></i> 
+                            <span class="lang">اللغة</span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </span>
+            </span>
+          </div>
+        </div>
+      </nav>
+      <!-- section dash bord -->
+      <div class="sectiondash">
+        <div class="row">
+            <!-- one sec -->
+            <div class="col-sm-3 col-lg-2">
+                <div class="me-5">
+                    <div>
+                        <span> <i class="fa-solid fa-bars"></i></span>
+                        <span class="list">القائمة</span>
+                    </div>
+
+                    <div class="tittel-sidebar">
+                        <img class="saroj" src="./assets/img/dash/secdash/saroj.png" alt="">
+                        لوحة التحكم 
+                     </div>
+                     <div class="linedash"></div>
+                    
+                     <div class="me-2">
+                        <div class="bgdash  p-1 mt-1">
+                            <span><img class="imgsidebar" src="./assets/img/dash/secdash/ehsa.png" alt=""></span>
+                            <span  class="detailes-contol"> لوحة المعلومات </span>
+                        </div>
+    
+                        <div class="mt-1">
+                            <span><img class="imgsidebar" src="./assets/img/dash/secdash/contropanel.png" alt=""></span>
+                            <span  class="detailes-sidebar"> لوحة معلومات متقدمة</span>
+                        </div>
+                     </div>
+
+
+                    <div class="tittel-sidebar">الشقق السكنية </div>
+                    <div class="me-3">
+                        <div class="mt-1">
+                            <span><img class="imgsidebar" src="./assets/img/dash/Residential apartments/one.png" alt=""></span>
+                            <span  class="detailes-sidebar">تسجيل دخول </span>
+                        </div>
+                        <div class="mt-1">
+                            <span><img class="imgsidebar" src="./assets/img/dash/Residential apartments/two.png" alt=""></span>
+                            <span  class="detailes-sidebar">تسجيل خروج </span>
+                        </div>
+                        <div class="mt-1">
+                            <span><img class="imgsidebar" src="./assets/img/dash/Residential apartments/three.png" alt=""></span>
+                            <span  class="detailes-sidebar"> ادارة حالة الشقق </span>
+                        </div>
+                    </div>
+                    <div class="tittel-sidebar pt-3"> الحجوزات </div>
+                    <div class="tittel-sidebar pt-3"> السندات </div>
+                    <div class="me-3">
+                        <div class="mt-1">
+                            <span><img class="imgsidebar" src="./assets/img/dash/Bonds and invoices/1.png" alt=""></span>
+                            <span  class="detailes-sidebar"> سندات القبض  </span>
+                        </div>
+                        <div class="mt-1">
+                            <span><img class="imgsidebar" src="./assets/img/dash/Bonds and invoices/2.png" alt=""></span>
+                            <span  class="detailes-sidebar"> سندات الكمبيالات </span>
+                        </div>
+                        <div class="mt-1">
+                            <span><img class="imgsidebar" src="./assets/img/dash/Bonds and invoices/3.png" alt=""></span>
+                            <span  class="detailes-sidebar">سندات الصرف</span>
+                        </div>
+                        <div class="mt-1">
+                            <span><img class="imgsidebar" src="./assets/img/dash/Bonds and invoices/4.png" alt=""></span>
+                            <span  class="detailes-sidebar">سندات الفواتير</span>
+                        </div>
+                        <div class="mt-1">
+                            <span><img class="imgsidebarsm" src="./assets/img/dash/Bonds and invoices/5.png" alt=""></span>
+                            <span  class="detailes-sidebar">الاشعارات الضريبية</span>
+                        </div>
+                    </div>
+                    <div class="tittel-sidebar pt-3"> العملاء </div>
+                    <div class="tittel-sidebar pt-3"> الخدمات </div>
+                    <div class="me-3">
+                        <div class="mt-1">
+                            <span><img class="imgsidebar" src="./assets/img/dash/servies/1.png" alt=""></span>
+                            <span  class="detailes-sidebar"> أضافة الخدمات </span>
+                        </div>
+
+                        <div class="mt-1">
+                            <span><img class="imgsidebar" src="./assets/img/dash/servies/2.png" alt=""></span>
+                            <span  class="detailes-sidebar">سجل الخدمات</span>
+                        </div>
+                    </div>
+
+                    <div class="tittel-sidebar pt-3"> خدمة الغرف </div>
+                    <div class="me-3">
+                        <div class="mt-1">
+                            <span><img class="imgsidebar" src="./assets/img/dash/Room service/1.png" alt=""></span>
+                            <span  class="detailes-sidebar"> حالة خدمة الغرف </span>
+                        </div>
+
+                        <div class="mt-1">
+                            <span><img class="imgsidebar" src="./assets/img/dash/Room service/2.png" alt=""></span>
+                            <span  class="detailes-sidebar">مهام خدمة الغرف</span>
+                        </div>
+                    </div>
+
+                    <div class="tittel-sidebar pt-3">الرسائل</div>
+
+                    <div class="tittel-sidebar pt-3">سجل الحركات </div>
+
+                    <div class="tittel-sidebar pt-3"> التقارير</div>
+                    <div class="me-3">
+                        <div class="mt-1">
+                            <span><img class="imgsidebarsm" src="./assets/img/dash/reports/1.png" alt=""></span>
+                            <span  class="detailes-sidebar"> تقرير حركة الصندوق </span>
+                        </div>
+                        <div class="mt-1">
+                            <span><img class="imgsidebarsm" src="./assets/img/dash/reports/2.png" alt=""></span>
+                            <span  class="detailes-sidebar"> تقرير شهري اجمالي</span>
+                        </div>
+                        <div class="mt-1">
+                            <span><img class="imgsidebarsm" src="./assets/img/dash/reports/3.png" alt=""></span>
+                            <span  class="detailes-sidebar">تقرير الحركة اليومية </span>
+                        </div>
+                        <div class="mt-1">
+                            <span><img class="imgsidebarsm" src="./assets/img/dash/reports/4.png" alt=""></span>
+                            <span  class="detailes-sidebar"> تقرير نسبة الاشغال</span>
+                        </div>
+                        <div class="mt-1">
+                            <span><img class="imgsidebarsm" src="./assets/img/dash/reports/5.png" alt=""></span>
+                            <span  class="detailes-sidebar"> تقرير بنوك الصرف</span>
+                        </div>
+                        <div class="mt-1">
+                            <span><img class="imgsidebarsm" src="./assets/img/dash/reports/6.png" alt=""></span>
+                            <span  class="detailes-sidebar">تقرير الكمبيالات </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- two sec -->
+            <div class="col-sm-9 col-lg-10">
+                <div class="information-dash pe-3 pt-3">
+                    <div class="d-flex">
+                        <span><i class="fa-sharp fa-solid fa-house ms-2"></i></span>
+                        <p class="steps-dash ">القائمة</p>
+                        <img class="me-2" src="./assets/img/dash/secdash/Polygon 4.svg" alt="">
+                        <p class="steps-dash">لوحة التحكم</p>
+                        <img class="me-2" src="./assets/img/dash/secdash/Polygon 4.svg" alt="">
+                        <p class="steps-dash">لوحة المعلومات</p>
+                    </div>              
+                        <div class="d-flex justify-content-between sec-boxes mt-2"> 
+                                <div class="boxdashone ms-2 pt-1">
+                                    <p class="tiitelboxone me-1">وصول اليوم <img class="doorimg" src="./assets/img/dash/secdash/door.png" alt=""></p>
+                                    <div class="d-flex justify-content-between me-1 ms-1">
+                                        <div class="numberdash">1</div>
+                                        <div class="circlewrap">
+                                            <img src="./assets/img/dash/secdash/cione.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="boxdashtwo ms-2 pt-1">
+                                    <p class="tiitelbox me-1"> تسجيل دخول </p>
+                                    <div class="d-flex justify-content-between me-1 ms-1">
+                                        <div class="numberdash">3</div>
+                                        <img src="./assets/img/dash/secdash/citwo.png" alt="">
+                                    </div>
+                                </div>
+
+
+                                <div class="boxdashthree ms-2 pt-1">
+                                    <p class="tiitelbox me-1"> مغادرة اليوم </p>
+                                    <div class="d-flex justify-content-between me-1 ms-1">
+                                        <div class="numberdash">5</div>
+                                        <img src="./assets/img/dash/secdash/cithree.png" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="boxdashfour ms-2 pt-1">
+                                    <p class="tiitelbox me-1"> تسجيل خروج </p>
+                                    <div class="d-flex justify-content-between me-1 ms-1">
+                                        <div class="numberdash">0</div>
+                                        <img src="./assets/img/dash/secdash/cifour.png" alt="">
+                                    </div>
+                                </div>
+                                
+                                <div class="boxdashfive ms-2 pt-1">
+                                    <p class="tiitelbox me-1"> النزلاء الباقين </p>
+                                    <div class="d-flex justify-content-between me-1 ms-1">
+                                        <div class="numberdash">0</div>
+                                        <img src="./assets/img/dash/secdash/cifive.png" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="boxdashsix ms-2 pt-1">
+                                    <p class="tiitelbox me-1"> حجوزات جديدة </p>
+                                    <div class="d-flex justify-content-between me-1 ms-1">
+                                        <div class="numberdash">5</div>
+                                        <img src="./assets/img/dash/secdash/cisix.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row pt-3 pb-3 ">
+                                <div class="col-sm-11 col-lg-7">
+                                    <!-- حالة الشقق -->
+                                    <div class="row mb-3  servesroom me-1">
+                                        <div class="col-sm-5 col-lg-5 ststushouses">
+                                            <p class="text-status">حالة الشقق</p>
+                                            <div class="d-flex justify-content-between ms-3 mt-3">
+                                                <div class="pt-3">
+                                                    <div>
+                                                        <span class="sta-cie">ملغي</span>
+                                                        <span><img  class="cis me-3" src="./assets/img/dash/secdash/three.png" alt=""></span>
+                                                    </div>
+
+                                                    <div>
+                                                        <span class="sta-cie">شاغر</span>
+                                                        <span><img  class="cis me-3" src="./assets/img/dash/secdash/two.png" alt=""></span>
+                                                    </div>
+
+                                                    <div>
+                                                        <span class="sta-cie">محجوز</span>
+                                                        <span><img class="cis me-2" src="./assets/img/dash/secdash/one.png" alt=""></span>
+                                                    </div>
+                                                </div>
+                                                <div class="text-start">
+                                                    <p class="PRIMARY">PRIMARY TEXT</p>
+                                                    <p class="numm ">0%</p>
+                                                    <p class="Secondary mb-3">Secondary text</p>
+                                                </div>
+                                            </div>
+                                            <img class="img-fluid pb-5" src="./assets/img/dash/secdash/circle.png" alt="">
+                                           <div class="d-flex pt-3 pb-3">
+                                            <span class="persend">80%</span>
+                                            <span class="progress  me-3">
+                                                <span class="progress-bar" role="progressbar" id="progesthree" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></span>
+                                            </span>
+                                           </div>
+                                        </div>
+                                        <div class="col-sm-7 col-lg-6 sechref ">
+                                            <div class="lineone"></div>
+                                            <div class="me-3">
+                                                <!-- أشغال حالة الغرف -->
+                                            <p class="text-status pt-4 pb-3"> أشغال حالة الغرف </p>
+
+                                            <div class="row mt-2 mb-2">
+                                                <div class="col-lg-4"><p class="tittelsalsa">3غرف وصالة </p></div>
+                                                <div class=" col-lg-7">
+                                                    <span class="progress  w-100 ">
+                                                        <span class="progress-bar" role="progressbar" id="progess1" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></span>
+                                                    </span>
+                                                </div>
+                                                <div class="col-lg-1">
+                                                    <div class="numsalsas">70%</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row  mb-2">
+                                                <div class="col-lg-4"><p class="tittelsalsa">4غرف وصالة </p></div>
+                                                <div class="col-lg-7">
+                                                    <span class="progress  w-100 ">
+                                                        <span class="progress-bar" role="progressbar" id="progess2" style="width: 20%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></span>
+                                                    </span>
+                                                </div>
+                                                <div class="col-lg-1">
+                                                    <div class="numsalsas">20%</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row  mb-2">
+                                                <div class="col-lg-4"><p class="tittelsalsa"> vip </p></div>
+                                                <div class="col-lg-7">
+                                                    <span class="progress  w-100 ">
+                                                        <span class="progress-bar" role="progressbar" id="progess3" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></span>
+                                                    </span>
+                                                </div>
+                                                <div class="col-lg-1">
+                                                    <div class="numsalsas">60%</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row  mb-2">
+                                                <div class="col-lg-4"><p class="tittelsalsa"> جناح بغرفتي نوم  </p></div>
+                                                <div class="col-lg-7">
+                                                    <span class="progress  w-100 ">
+                                                        <span class="progress-bar" role="progressbar" id="progess4" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></span>
+                                                    </span>
+                                                </div>
+                                                <div class="col-lg-1">
+                                                    <div class="numsalsas">50%</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row  mb-2">
+                                                <div class="col-lg-4"><p class="tittelsalsa">غرفتين بصالة</p></div>
+                                                <div class="col-lg-7">
+                                                    <span class="progress  w-100 ">
+                                                        <span class="progress-bar" role="progressbar" id="progess5" style="width: 18%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></span>
+                                                    </span>
+                                                </div>
+                                                <div class="col-lg-1">
+                                                    <div class="numsalsas">18%</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row  mb-2">
+                                                <div class="col-lg-4"><p class="tittelsalsa">جناح بغرفتي نوم</p></div>
+                                                <div class="col-lg-7">
+                                                    <span class="progress  w-100 ">
+                                                        <span class="progress-bar" role="progressbar" id="progess6" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></span>
+                                                    </span>
+                                                </div>
+                                                <div class="col-lg-1">
+                                                    <div class="numsalsas">40%</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="d-flex justify-content-end">
+                                                <div class="circledash">
+                                                    <div class="text-center">
+                                                        <i class="fa-solid fa-info" id="fainfo"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row  servesroomtwo me-1">
+                                        <div class="col-sm-6 col-lg-6">
+                                            <!-- خدمة حالة الغرف -->
+                                            <p class="text-status">خدمة حالة الغرف</p>
+                                            <div class="d-flex justify-content-end ms-3 mt-3">
+                                                <p class="show">Show data: 2020 -2022</p>
+                                            </div>
+
+                                                <div>
+                                                    <div>
+                                                        <span class="sta-cie">نضيف</span>
+                                                        <span><img  class=" me-3" src="./assets/img/dash/secdash/cone.png" alt=""></span>
+                                                    </div>
+
+                                                    <div>
+                                                        <span class="sta-cie">مكسور</span>
+                                                        <span><img  class=" me-2" src="./assets/img/dash/secdash/ctwo.png" alt=""></span>
+                                                    </div>
+
+                                                </div>
+                                                <div><img class="w-50 imgsecdash" src="./assets/img/dash/secdash/circletwo.png" alt="">
+                                            </div>
+                                           <div class="d-flex">
+                                            <span class="persend">65%</span>
+                                            <span class="progress  me-3">
+                                                <span class="progress-bar" role="progressbar" id="progessone" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></span>
+                                            </span>
+                                           </div>
+                                           <div class="d-flex">
+                                            <span class="persend">20%</span>
+                                            <span class="progress  me-3">
+                                                <span class="progress-bar" role="progressbar" id="progesstwo" style="width: 20%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></span>
+                                            </span>
+                                           </div>
+                                        </div>
+                                        <div class="col-sm-6 col-lg-6">
+                                            <div class="line"></div>
+                                            <div class="me-3">
+                                                <!-- الاشعارات -->
+                                            <p class="text-status "> الاشعارات </p>
+                                            <div class="circels mt-4">
+                                                <div class="text-center">
+                                                    <i class="fa-solid fa-info pt-3"></i>
+                                                </div>
+                                            </div>
+                                            <div class="nonavction pt-5">لا يوجد اشعارات جديدة</div>
+                                        </div>
+                                        </div>
+                                    </div>
+                             
+                                </div>
+                                
+                                <div class="col-sm-11  col-lg-4">
+                                    <div class="foot">
+                                        <div class="box-ehsayat">
+                                            <!-- حالة الشقق الاسبوعية -->
+                                            <p class="statushous me-3 pt-3 ">حالة الشقق الاسبوعية</p>
+                                            <div class="text-center">
+                                                <img class=" img-fluid  mt-3" id="imgehsaj" src="./assets/img/dash/secdash/ehsayat.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="updates mt-3">
+                                        <!-- التحديتاث -->
+                                        <p class="statushous me-3 pt-3">التحديتاث</p>
+                                        <div class="d-flex me-3 pt-3 pb-5">
+                                            <div class="onesec">
+                                                5/9/2016
+                                            </div>
+                                            <div class="twosec me-3">
+                                                <p class="datatwosec">النسخة5.0.0 </p>
+                                                <p class="updae">
+                                                    تم رفع تحديث جديد يشمل العديد من التحسينات والخصائص الاضافية 
+                                                    <span class="readmore">للمزيد من التفاصيل</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                </div>
+
+
+            </div>
+      </div>
+      </div>
+
+
+   
+      
+
+  </body>
+</html>
